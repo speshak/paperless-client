@@ -2,27 +2,28 @@ package paperless
 
 import (
 	"fmt"
+	"time"
 )
 
 // Paperless Document
 type Document struct {
-	Id                    int      `json:"id"`
-	Correspondent         int      `json:"correspondent"`
-	Document_type         int      `json:"document_type"`
-	Storage_path          string   `json:"storage_path"`
-	Title                 string   `json:"title"`
-	Content               string   `json:"content"`
-	Tags                  []int    `json:"tags"`
-	Created               string   `json:"created"`
-	Created_date          string   `json:"created_date"`
-	Modified              string   `json:"modified"`
-	Added                 string   `json:"added"`
-	Archive_serial_number string   `json:"archive_serial_number"`
-	Original_file_name    string   `json:"original_file_name"`
-	Archived_file_name    string   `json:"archived_file_name"`
-	Owner                 int      `json:"owner"`
-	User_can_change       bool     `json:"user_can_change"`
-	Notes                 []string `json:"notes"`
+	Id                    int       `json:"id"`
+	Correspondent         int       `json:"correspondent"`
+	Document_type         int       `json:"document_type"`
+	Storage_path          string    `json:"storage_path"`
+	Title                 string    `json:"title"`
+	Content               string    `json:"content"`
+	Tags                  []int     `json:"tags"`
+	Created               time.Time `json:"created"`
+	Created_date          string    `json:"created_date"`
+	Modified              time.Time `json:"modified"`
+	Added                 time.Time `json:"added"`
+	Archive_serial_number string    `json:"archive_serial_number"`
+	Original_file_name    string    `json:"original_file_name"`
+	Archived_file_name    string    `json:"archived_file_name"`
+	Owner                 int       `json:"owner"`
+	User_can_change       bool      `json:"user_can_change"`
+	Notes                 []string  `json:"notes"`
 
 	client *PaperlessClient
 }
