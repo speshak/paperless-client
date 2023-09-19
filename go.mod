@@ -3,7 +3,7 @@ module github.com/speshak/paperless-client
 go 1.18
 
 require (
-	github.com/go-resty/resty/v2 v2.7.0
+	github.com/go-resty/resty/v2 v2.8.0
 	github.com/stretchr/testify v1.8.4
 )
 
