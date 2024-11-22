@@ -6,6 +6,8 @@ github.com/go-resty/resty/v2 v2.8.0 h1:J29d0JFWwSWrDCysnOK/YjsPMLQTx0TvgJEHVGvf2
 github.com/go-resty/resty/v2 v2.8.0/go.mod h1:UCui0cMHekLrSntoMyofdSTaPpinlRHFtPpizuyDW2w=
 github.com/go-resty/resty/v2 v2.16.1 h1:0EB9QI65hPIGU1uX7EdRPd0ZBcvWHS0DcpAoEayMVQw=
 github.com/go-resty/resty/v2 v2.16.1/go.mod h1:0fHAoK7JoBy/Ch36N8VFeMsK7xQOHhvWaC3iOktwmIU=
+github.com/go-resty/resty/v2 v2.16.2 h1:CpRqTjIzq/rweXUt9+GxzzQdlkqMdt8Lm/fuK/CAbAg=
+github.com/go-resty/resty/v2 v2.16.2/go.mod h1:0fHAoK7JoBy/Ch36N8VFeMsK7xQOHhvWaC3iOktwmIU=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/stretchr/testify v1.8.4 h1:CcVxjf3Q8PM0mHUKJCdn+eZZtm5yQwehR5yeSVQQcUk=
